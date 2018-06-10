@@ -1,0 +1,112 @@
+/* All Page CSS */
+
+
+/*body部共通*/
+body{
+/*  background-image: url("../images/bg.jpg");*/
+  background-image: url("../images/bg6.jpg");
+}
+
+/*段落共通*/
+p{
+  text-align: left;
+}
+
+/*見出し共通*/
+h1{
+  padding-left:5px;
+  font-size:20px;
+  border-left: 10px solid #FF0000;
+  border-bottom: 5px solid #FF0000;
+}
+/*見出し2共通*/
+h2 {
+  position: relative;
+  padding: 0 .5em .5em 1.7em;
+  font-size:18px;
+  text-align: center;
+}
+
+/*ラベル共通*/
+label{
+  margin:5px;
+}
+
+/*リンク*/
+a {
+  display: inline-block;
+  transition: .3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*文字入力部共通*/
+.main{
+  margin:10px;
+  line-height: 2.0;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border:1px solid #000000;
+}
+
+/*入力情報テーブル 全体*/
+.inputTable{
+  border-collapse: collapse;
+}
+
+/*入力情報テーブル セル*/
+.inputTable th,
+.inputTable td{
+  border:1px solid #000000;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+/*入力フォーム左　文字列*/
+.inputTdCaption{
+  text-align:right;
+}
+
+/*データ表示テーブル 全体*/
+.dataTable{
+  border-collapse: collapse;
+}
+
+/*データ表示テーブル 全体*/
+.dataTable th,
+.dataTable td{
+  border:1px solid #000000;
+  padding-top:3px;
+  padding-bottom: 3px;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+/*難易度コンボボックス*/
+.selectDifficulty{
+  height:25px;
+}
+
+/*入力フォーム内チェックボックス列*/
+.inputCheckBox{
+  width:50px;
+}
+
+/*仕様説明*/
+.about li{
+  font-size:12px;
+  margin:-5px;
+}
+/*バージョン履歴*/
+.version li{
+  font-size:12px;
+  margin:-5px;
+}
+/*エラー表示*/
+.fldError{
+  border-color:#FF0000;
+}
